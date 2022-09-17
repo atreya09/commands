@@ -1,0 +1,21 @@
+Install-Module -Name Azure -AllowClobber
+
+Install-Module -Name AzureRM -AllowClobber
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Install-Module -Name Azure -AllowClobber
+
+Install-Module -Name AzureRM -AllowClobber
+
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org pip pip install boto3
+
+
+
+
+netstat -aon | findstr 3128
+Get-Process -Id (Get-NetTCPConnection -LocalPort 3128).OwningProcess
+taskkill /F /PID pid_number
+
+
+
