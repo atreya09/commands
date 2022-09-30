@@ -9,6 +9,7 @@ Install-Module -Name Azure -AllowClobber
 Install-Module -Name AzureRM -AllowClobber
 
 pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org pip pip install boto3
+sudo netstat -plten |grep java
 
 
 
